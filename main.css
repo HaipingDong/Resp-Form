@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab) @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+h1{
+	color: white;
+}
+h2{
+	color: blue;
+}
+.masthead{
+	background-color: aqua;
+}
+
+form {
+	width: 90%;
+	margin: 0 auto;
+}
+
+fieldset {
+	border: 1px solid #DDD;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display: none;
+}
+
+input {
+	display: block;
+	width: 100%;
+	padding: 0.2rem;
+}
+
+input[type="submit"] {
+	border: 1px solid #CCC;
+	background-color: lightskyblue;
+	padding: 0.5rem 1rem;
+}
+.content{
+	background-color: lightcyan;
+}
+
+.box {
+	padding: 0.5rem;
+}
+
+@media all and (max-width:60em) and (min-width:35em) {
+	.box {
+		width: 50%;
+		float: left;
+	}
+	
+	label {
+		display: block;
+	}
+}
+
+@media all and (min-width:60em) {
+	.box {
+		width: 50%;
+		float: left;
+	}
+	
+	label {
+		display: inline-block;
+		width: 80px;
+	}
+	
+	input {
+		display: inline-block;
+		width: 75%;
+	}
+	
+	input[type="submit"] {
+		margin: 0 0 0 80px;
+	}
+}
