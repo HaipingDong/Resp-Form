@@ -3,18 +3,24 @@
 	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	padding: 0;
 	margin: 0;
 }
+
+
+
+h2 {
+	color: darkgray;
+}
 h1{
-	color: white;
+	color: darkgray;
 }
-h2{
-	color: blue;
-}
-.masthead{
-	background-color: aqua;
+
+.masthead {
+	padding: 5rem auto;
+	margin: 0;
 }
 
 form {
@@ -24,7 +30,7 @@ form {
 
 fieldset {
 	border: 1px solid #DDD;
-	padding: 0;
+	padding: 1rem auto;
 	margin: 0;
 }
 
@@ -35,7 +41,7 @@ label {
 input {
 	display: block;
 	width: 100%;
-	padding: 0.2rem;
+	padding: 2rem;
 }
 
 input[type="submit"] {
@@ -43,9 +49,8 @@ input[type="submit"] {
 	background-color: lightskyblue;
 	padding: 0.5rem 1rem;
 }
-.content{
-	background-color: lightcyan;
-}
+
+
 
 .box {
 	padding: 0.5rem;
@@ -56,7 +61,6 @@ input[type="submit"] {
 		width: 50%;
 		float: left;
 	}
-	
 	label {
 		display: block;
 	}
@@ -67,17 +71,14 @@ input[type="submit"] {
 		width: 50%;
 		float: left;
 	}
-	
 	label {
 		display: inline-block;
 		width: 80px;
 	}
-	
 	input {
 		display: inline-block;
 		width: 75%;
 	}
-	
 	input[type="submit"] {
 		margin: 0 0 0 80px;
 	}
